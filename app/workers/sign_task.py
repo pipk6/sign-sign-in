@@ -388,8 +388,8 @@ class GetCodeAndSessionThread(QThread):
 
             ### 唤起微信小程序
             weixin_urls = [
-                f"weixin://launchapplet/?appid={LAISHIXI_APP_ID if service_provider == 'laishixi' else XYB_APP_ID}",
-                f"weixin://launchapplet?appid={LAISHIXI_APP_ID if service_provider == 'laishixi' else XYB_APP_ID}",
+                f"weixin://launchapplet/?app_id={LAISHIXI_APP_ID if service_provider == 'laishixi' else XYB_APP_ID}",
+                f"weixin://launchapplet?app_id={LAISHIXI_APP_ID if service_provider == 'laishixi' else XYB_APP_ID}",
             ]
             platform_name = "Laishixi" if service_provider == "laishixi" else "XYB"
             try:
