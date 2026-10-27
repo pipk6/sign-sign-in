@@ -12,7 +12,7 @@ PROJECT_GITEE = "https://gitee.com/ckkk524334/sign-sign-in"
 QQ_GROUP = "859098272"
 
 # 校友邦版本
-XYB_VERSION = "1.6.40"
+XYB_VERSION = "1.7.10"
 # 校友邦key
 XYB_KEY = "ZsE4rGnjI9PkHqAz2WseDc4RF8Uh7YgVMb5Ke48NemJ4saA6XcQ821fFT061pC"
 # 校友邦appid
